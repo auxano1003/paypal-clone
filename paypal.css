@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+/* the navbar styling begins here */
+nav {
+    width: 100%;
+    background-color: #fff;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 100px;
+}
+h3 {
+    color: #000;
+    font-size: 16px;
+    /* border: 1px solid green; */
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.bttn {
+    width: 15%;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.buttonOne, .buttonTwo {
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.buttonOne {
+    background-color: #fff;
+    border: 1px solid lightblue;
+    color: lightblue;
+
+}
+.buttonTwo {
+    background-color: #0070BA;
+    color: #fff;
+}
+/* the navbar styling ends here */
+ /* the section styling begins here */
+section {
+    background-image: url(https://www.paypalobjects.com/webstatic/en_GB/mktg/wright/home/homepage-hero-1x.jpg);
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid red;  */
+    margin-top: 10px;
+}
+
+.insideSection {
+    width: 70%;
+    height: 150px;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+.insideSection > h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 4em;
+}
+.signup {
+    display: block;
+    margin: 2rem auto;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0070BA;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+ p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5em;
+    
+}
+bold {
+    font-weight : 600;
+
+}
+/* the section styling ends here */
+/* the main styling starts here */
+main {
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+}
+.mainS {
+    width: 80%;
+    height: inherit;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+.mainS h4 {
+    color:rgba(0,0,0,0.65);
+    font-size:43px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5.5rem;
+}
+ .midlogo{
+    width: 90px;
+    /* height: 60px; */
+    margin: 2rem auto;
+    display: block;
+}
+h5 {
+    font-size: 25px;
+    text-align: center;
+    color: rgba(0,0,0,0.65);
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.pOne {
+    color: rgba(0,0,0,0.65);
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+.learnMore {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #0070BA;
+    display: block;
+    background-color: #fff;
+    color: #0070BA;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: -5%;
+    margin-left: 40%;
+}
+/* the main styling ends here */
+/* the article style begins here */
+article {
+    width: 100%;
+    height: 620px;
+    background-color: #f7f9fa;
+}
+.bigheader {
+    color: rgba(0,0,0,0.65);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.buyer {
+    color: rgba(0,0,0,0.65);
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.biggyBoy {
+    width: 85%;
+    height: 190px;
+    /* border: 2px solid green; */
+    /* margin: auto; */
+    margin: 70px auto 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.imago img {
+    width: 220px;
+}
+
+.icon {
+    font-size: 60px;
+    font-weight: 100;
+    color: rgba(0,0,0,0.15);
+}
+.textHolder {
+    width: 98%;
+    height: 70px;
+    /* border: 3px solid green; */
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly ;
+}
+.textNo {
+    width: 28%;
+    height: 60px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.number {
+    border: 1px solid rgba(0,0,0,0.4);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: rgba(0,0,0,0.65);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.word {
+    /* border: 1px solid green; */
+    color: rgba(0,0,0,0.65);
+    font-weight: light;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+   
+}
+.textHolder >:nth-child(2) {
+    width: 20%;
+}
+.learn {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #0070BA;
+    border-radius: 50px;
+    background-color: #f7f9fa;
+    color: #0070BA;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 33rem;
+}
+/* the article section styling ends here */
+/* the aside styling begins here */
+ aside {
+    width: 100%;
+    height: 450px;
+    background-color: #003087;
+ }
+ .join {
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 100px;
+ }
+ .bigholder {
+    width: 90%;
+    height: 230px;
+    /* margin-top: 50px; */
+    margin: 30px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+  .col1 {
+    width: 48%;
+    height: 250px;
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+    padding-top: 30px;
+    /* box-sizing: border-box; */
+
+}
+  .col2 {
+    width: 48%;
+    height: 250px;
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+    padding-top: 30px;
+    /* box-sizing: border-box; */
+
+}
+.safer , .poro {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: left;
+}
+.para , .papa {
+    text-align: left;
+    /* padding-top: 10px;  */
+    line-height: 18px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+ .anchor, a{
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    /* display: block; */
+    /* padding-bottom:40px; */
+    font-size: 16px;
+    font-weight: 600;
+}
+.sectionTwo {
+    width: 100%;
+    height: 270px;
+    background-color: #f7f9fa;
+    background-image: none;
+}
+.insignale {
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+    padding-top: 2.5em;
+    /* margin-top: 20px; */
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.gettinStarted {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: #f7f9fa;
+    background-color: #0070BA;
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    /* border: 2px solid red; */
+}
+.bottombarrel {
+    width: 80%;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 3rem;
+}
+ul{
+    
+    width: 350px;
+    height: inherit;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+ul li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.emoji{
+    width: 30px;
+    height: 50px;
+    /* border: 5px solid brown; */
+    display: flex;
+    align-items: center;
+}
+.naija {
+    width: 90%;
+}
+.bottombeast {
+    width: 80%;
+    height: 50px;
+    /* border-bottom: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.outcast {
+    width: 350px;
+    font-size: 10px;
+    color: rgba(0,0,0,0.45);
+    font-weight: light;
+    font-family: sans-serif;
+}
+.cage {
+    width: 250px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidechicc {
+    font-size: 10px;
+    color: rgba(0,0,0,0.45);
+    font-weight: light;
+    font-family: sans-serif;
+}
+.finally {
+    color: #000;
+    /* border: 2px solid black; */
+    width: 80%;
+    font-size: 11px;
+    color: rgba(0,0,0,0.45);
+    font-weight: light;
+    font-family: sans-serif;
+    text-align: left;
+    margin: auto;
+}
